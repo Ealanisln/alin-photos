@@ -39,7 +39,7 @@ function App() {
           </p>
           <button 
             onClick={handleDownloadClick}
-            className="inline-flex items-center gap-3 px-8 py-4 bg-secondary hover:bg-secondary/90 text-white rounded-full 
+            className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-pink-400 to-purple-600 hover:from-pink-500 hover:to-purple-700 text-white rounded-full 
                      transition-all duration-300 ease-out transform hover:scale-105 hover:shadow-lg
                      text-lg font-medium tracking-wide"
           >
